@@ -110,7 +110,7 @@
 
         <activity android:name=".permission.ui.OverlayWarningDialog"
                 android:excludeFromRecents="true"
-                android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+                android:theme="@android:style/Theme.Material.DayNight.Dialog.NoActionBar" />
 
         <receiver android:name=".permission.model.PermissionStatusReceiver"
             android:permission="android.permission.GRANT_RUNTIME_PERMISSIONS">
